@@ -5,6 +5,12 @@
    align-items: center;
    margin-top: 100px;
 }
+body{
+   background-image: url(/53680862-open-book-hardback-books-on-wooden-table-back-to-school-copy-space-for-text-.jpeg);
+   background-repeat: no-repeat;
+   background-size: 200%;
+}
+
 .true{
    display: none;
    
@@ -12,12 +18,16 @@
 .on{
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
    font-family: Arial, Helvetica, sans-serif;
    border: 1px solid grey;
    border-radius: 15px;
    padding: 9px;
-   width: 140px;
+   width: 250px;
    line-height: 25px;
+   color: white;
+   font-size: 20px;
 }
 .btn{
    margin-top: 10px;
@@ -34,6 +44,8 @@
 #askday{
    border: 1px solid grey;
    border-radius: 10px;
-   padding: 3px 8px;
+   padding: 4px 8px;
+   width: 200px;
+   height: 20px;
    text-transform: lowercase;
-}
+}  
