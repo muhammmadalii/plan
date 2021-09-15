@@ -35,4 +35,5 @@
    border: 1px solid grey;
    border-radius: 10px;
    padding: 3px 8px;
+   text-transform: lowercase;
 }
