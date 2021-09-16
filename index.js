@@ -1,7 +1,7 @@
 const elForm = document.querySelector("#form");
 const askDay = document.querySelector("#askday");
 const elResult = document.querySelector("#result");
-
+const text = document.querySelector("#text")
 
 elForm.addEventListener("submit", (e) => {
    e.preventDefault();
@@ -11,25 +11,25 @@ elForm.addEventListener("submit", (e) => {
 (askDay.value)
     switch (askDay.value){
         case "dushanba":
-            elResult.textContent = "Biologiya, Ona tili, Inf va IKT, Fizika, Ingliz tili";
+            text.textContent = "1 Biologiya 🦠, 2 Ona tili 📖, 3 Informatika 🖥, 4 Fizika 💡, 5 Ingliz tili 🇺🇸";
             break;
         case "seshanba":
-            elResult.textContent = "Algebra, Adabiyot, Jismoniy tarbiya, Tadbirkorlik, Huquq";
+            text.textContent = "1 Algebra 🧮, 2 Adabiyot 📚, 3 Jismoniy tarbiya 🏃‍♂️, 4 Tadbirkorlik 💸, 5 Huquq 🧰";
             break;
         case "chorshanba":
-            elResult.textContent = "Rus tili, Ona tili, Umumjahon tarixi, Geometriya";
+            text.textContent = "1 Rus tili 🇷🇺, 2 Ona tili 📖, 3 Umumjahon tarixi 🗿, 4 Geometriya 📐";
             break;
         case "payshanba":
-            elResult.textContent = "Ingliz tili, Fizika, Tarbiya, Kimyo, Algebra";
+            text.textContent = "1 Ingliz tili 🇺🇸, 2 Fizika 💡, 3 Tarbiya 👨‍🏫, 4 Kimyo 🧪, 5 Algebra 🧮";
             break;
         case "juma":
-            elResult.textContent = "Sinf soati, Jismoniy madaniyat, Adabiyot, Biologiya, O'zbekiston tarixi, Geometriya";
+            text.textContent = "1 Sinf soati 🕰, 2 Jismoniy madaniyat 🧍‍♂️, 3 Adabiyot 📚, 4 Biologiya 🦠, 5 O'zbekiston tarixi 🗿, 6 Geometriya 📐";
             break;
         case "shanba":
-            elResult.textContent = "CHQBT, Rus tili, Kimyo, Ingliz tili, Algebra";
+            text.textContent = "1 CHQBT 💂‍♂️, 2 Rus tili 🇷🇺, 3 Kimyo 🧪, 4 Ingliz tili 🇺🇸, 5 Algebra 🧮";
             break;
         default:
-            elResult.textContent = "Maktab ham dam oladi 😀";
+            text.textContent = "Maktab ham dam oladi 😀";
     }
     askDay.value = null;
 })
