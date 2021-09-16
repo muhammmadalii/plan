@@ -46,5 +46,10 @@ body{
    text-transform: lowercase;
 }  
 #text{
-   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: baseline;
+   font-size: 23px;
+   width: 144px;
 }

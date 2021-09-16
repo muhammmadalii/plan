@@ -11,10 +11,10 @@ elForm.addEventListener("submit", (e) => {
 (askDay.value)
     switch (askDay.value){
         case "dushanba":
-            text.textContent = "1 Biologiya 🦠, 2 Ona tili 📖, 3 Informatika 🖥, 4 Fizika 💡, 5 Ingliz tili 🇺🇸";
+            text.textContent = "1 Biologiya 🦠 2 Ona tili 📖    3 Informatika 🖥 4 Fizika 💡 5 Ingliz tili 🇺🇸";
             break;
         case "seshanba":
-            text.textContent = "1 Algebra 🧮, 2 Adabiyot 📚, 3 Jismoniy tarbiya 🏃‍♂️, 4 Tadbirkorlik 💸, 5 Huquq 🧰";
+            text.textContent = "1 Algebra 🧮 2 Adabiyot 📚 3 Jismoniy tarbiya 🏃‍♂️ 4 Tadbirkorlik 💸 5 Huquq 🧰";
             break;
         case "chorshanba":
             text.textContent = "1 Rus tili 🇷🇺, 2 Ona tili 📖, 3 Umumjahon tarixi 🗿, 4 Geometriya 📐";
